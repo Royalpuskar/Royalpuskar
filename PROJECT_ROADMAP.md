@@ -1,17 +1,17 @@
 # Independent Project Roadmap
 
-64 proposed standalone repositories for Royalpuskar. **Planning status: these repositories have not been created or implemented.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
+64 original standalone project proposals for Royalpuskar. **Current status: one roadmap project (`agent-permission-gate`) has an implemented research prototype; the remaining roadmap proposals are not claimed complete.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
 
 ## Six priority projects
 
-1. `agent-permission-gate`
+1. [`agent-permission-gate`](https://github.com/Royalpuskar/agent-permission-gate) — implemented research prototype with tests
 2. `offline-relay`
 3. `token-lifecycle-lab`
 4. `architecture-drift`
 5. `dataset-lineage-map`
 6. `workflow-counterexample`
 
-These are candidates for profile pins after implementation and review; this document does not change GitHub pins.
+These remain roadmap priorities, not automatic GitHub pins. The implemented permission-gate prototype is linked above; the other five are future directions.
 
 ## Delivery standard
 
@@ -428,9 +428,9 @@ Each project should have its own runnable implementation, setup instructions, ar
 ### 57. agent-permission-gate
 
 - Purpose: Constrain automation actions with typed capabilities and approval rules.
-- First working version: Build a policy engine around mock tools and an auditable decision log.
-- Acceptance check: Unknown actions and missing grants default to denial.
-- Status: proposed; not implemented.
+- Implemented prototype: [Browser workbench + JavaScript/Python policy engines](https://github.com/Royalpuskar/agent-permission-gate), mock requests, explicit default-deny decisions, and automated tests.
+- Acceptance check: Unknown actions and missing grants default to denial in the test fixtures.
+- Status: **research prototype implemented**, not a production enforcement service.
 
 ### 58. tool-response-firewall
 
