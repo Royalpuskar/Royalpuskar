@@ -1,3 +1,11 @@
+## Project roadmap
+
+I am planning [64 independent engineering projects](./PROJECT_ROADMAP.md) across security, resilient systems, developer tools, accessibility, climate, data, and automation. These projects are currently proposals, not completed products.
+
+**First priorities:** agent permission controls, offline synchronization, token lifecycle testing, architecture checks, dataset lineage, and workflow invariant testing.
+
+---
+
 ## Hi there 👋
 <h1 align="center">⚡ INITIALIZING SYSTEM ⚡</h1>
 
