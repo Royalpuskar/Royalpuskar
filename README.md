@@ -34,6 +34,20 @@ My focus is on turning ideas into **runnable prototypes**, documenting how they 
 
 Each project is an **independent research prototype**, not a professionally certified security product. The research repositories contain runnable browser examples and automated Python/JavaScript contract tests.
 
+## Live research demos
+
+These nine browser applications are deployed on GitHub Pages. Each sample scenario was exercised in the live website on 12 November 2026; that smoke test does not establish production readiness.
+
+- [SENTINEL-X — open web demo](https://royalpuskar.github.io/SENTINEL-X/)
+- [COGNISHIELD — open web demo](https://royalpuskar.github.io/COGNISHIELD/)
+- [GHOSTKEY — open web demo](https://royalpuskar.github.io/GHOSTKEY/)
+- [NEUROGRID — open web demo](https://royalpuskar.github.io/NEUROGRID/)
+- [TRACEZERO — open web demo](https://royalpuskar.github.io/TRACEZERO/)
+- [PhishScope — open web demo](https://royalpuskar.github.io/PhishScope/)
+- [PrivacyLens — open web demo](https://royalpuskar.github.io/PrivacyLens/)
+- [OpenResearch-Nepal — open web demo](https://royalpuskar.github.io/OpenResearch-Nepal/)
+- [agent-permission-gate — open web demo](https://royalpuskar.github.io/agent-permission-gate/)
+
 ## Working applications
 
 | Project | What it does | Current scope |
