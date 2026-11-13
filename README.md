@@ -30,13 +30,15 @@ My focus is on turning ideas into **runnable prototypes**, documenting how they 
 | [PrivacyLens](https://github.com/Royalpuskar/PrivacyLens) | Personal-data exposure prioritization | Local illustrative risk model |
 | [NEUROGRID](https://github.com/Royalpuskar/NEUROGRID) | Capability-aware dependent-task scheduling | Deterministic planning engine |
 | [agent-permission-gate](https://github.com/Royalpuskar/agent-permission-gate) | Default-deny access decisions for agents | Policy engine and test cases |
+| [token-lifecycle-lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh rotation, expiry, and family reuse revocation | Interactive simulator and six behavior tests |
+| [workflow-counterexample](https://github.com/Royalpuskar/workflow-counterexample) | Finite-state safety checks and shortest failure traces | Bounded BFS engine, replay workbench, nine behavior tests |
 | [OpenResearch-Nepal](https://github.com/Royalpuskar/OpenResearch-Nepal) | Reproducibility metadata and basic experiment summaries | Inspectable datasets and checks |
 
-Each project is an **independent research prototype**, not a professionally certified security product. The research repositories contain runnable browser examples and automated Python/JavaScript contract tests.
+Each project is an **independent research prototype**, not a professionally certified security product. The research repositories contain runnable browser examples and automated JavaScript tests; the original nine also include Python reference engines.
 
 ## Live research demos
 
-These nine browser applications are deployed on GitHub Pages. Each sample scenario was exercised in the live website on 12 November 2026; that smoke test does not establish production readiness.
+These eleven browser applications are deployed on GitHub Pages. The original nine were smoke-tested on 12 November 2026. Token Lifecycle Lab and Workflow Counterexample were exercised on 13 November 2026; smoke tests do not establish production readiness.
 
 - [SENTINEL-X — open web demo](https://royalpuskar.github.io/SENTINEL-X/)
 - [COGNISHIELD — open web demo](https://royalpuskar.github.io/COGNISHIELD/)
@@ -47,6 +49,9 @@ These nine browser applications are deployed on GitHub Pages. Each sample scenar
 - [PrivacyLens — open web demo](https://royalpuskar.github.io/PrivacyLens/)
 - [OpenResearch-Nepal — open web demo](https://royalpuskar.github.io/OpenResearch-Nepal/)
 - [agent-permission-gate — open web demo](https://royalpuskar.github.io/agent-permission-gate/)
+
+- [Token Lifecycle Lab — open web demo](https://royalpuskar.github.io/token-lifecycle-lab/)
+- [Workflow Counterexample — open web demo](https://royalpuskar.github.io/workflow-counterexample/)
 
 ## Working applications
 
