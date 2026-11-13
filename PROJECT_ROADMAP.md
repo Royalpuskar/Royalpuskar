@@ -1,17 +1,17 @@
 # Independent Project Roadmap
 
-64 original standalone project proposals for Royalpuskar. **Current status: three roadmap projects (`agent-permission-gate`, `token-lifecycle-lab`, and `workflow-counterexample`) have implemented research prototypes; the remaining roadmap proposals are not claimed complete.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
+64 original standalone project proposals for Royalpuskar. **Current status: four roadmap projects (`agent-permission-gate`, `token-lifecycle-lab`, `workflow-counterexample`, and `offline-relay`) have implemented research prototypes; the remaining roadmap proposals are not claimed complete.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
 
 ## Six priority projects
 
 1. [`agent-permission-gate`](https://github.com/Royalpuskar/agent-permission-gate) — implemented research prototype with tests
-2. `offline-relay`
+2. [`offline-relay`](https://github.com/Royalpuskar/offline-relay) — implemented delivery simulator with eight tests
 3. [`token-lifecycle-lab`](https://github.com/Royalpuskar/token-lifecycle-lab) — implemented interactive prototype with six tests
 4. `architecture-drift`
 5. `dataset-lineage-map`
 6. [`workflow-counterexample`](https://github.com/Royalpuskar/workflow-counterexample) — implemented interactive prototype with nine tests
 
-These remain roadmap priorities, not automatic GitHub pins. Three implemented prototypes are linked above; the other three remain future directions.
+These remain roadmap priorities, not automatic GitHub pins. Four implemented prototypes are linked above; the other two remain future directions.
 
 ## Delivery standard
 
@@ -82,7 +82,7 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Synchronize essential forms across intermittent connections.
 - First working version: Build a local outbox, idempotent API, and conflict inspector.
 - Acceptance check: Duplicate delivery never creates duplicate records.
-- Status: proposed; not implemented.
+- Status: **browser-local protocol simulator implemented** with version checks, idempotency receipts, reviewed conflicts, and eight tests. Durable storage and a deployed API remain future work.
 
 ### 10. conflict-atlas
 
