@@ -53,6 +53,14 @@ These eleven browser applications are deployed on GitHub Pages. The original nin
 - [Token Lifecycle Lab — open web demo](https://royalpuskar.github.io/token-lifecycle-lab/)
 - [Workflow Counterexample — open web demo](https://royalpuskar.github.io/workflow-counterexample/)
 
+## Resilient systems
+
+| Repository | Implemented behavior | Validation |
+| --- | --- | --- |
+| [Offline Relay](https://github.com/Royalpuskar/offline-relay) | Two-client delivery simulator, version checks, duplicate suppression, and reviewed conflicts | Eight protocol tests passed locally; live-browser interaction check pending |
+
+[Open Offline Relay](https://royalpuskar.github.io/offline-relay/). GitHub Pages reported deployment complete on 13 November 2026. This is an in-memory simulation, not a deployed synchronization API.
+
 ## Working applications
 
 | Project | What it does | Current scope |
