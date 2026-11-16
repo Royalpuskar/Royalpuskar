@@ -1,5 +1,11 @@
 <div align="center">
 
+<!-- portfolio-website:start -->
+## Website
+
+[Open the portfolio profile](https://github.com/Royalpuskar). Individual project websites are linked below; this repository is the profile README, not a separately deployed application.
+<!-- portfolio-website:end -->
+
 # ROYALPUSKAR
 
 ### Cybersecurity · AI Safety · Privacy Engineering · Applied Research
@@ -104,3 +110,10 @@ See the [independent project roadmap](./PROJECT_ROADMAP.md) for additional propo
 ---
 
 <p align="center">Build small. Test carefully. Document limitations. Improve with evidence.</p>
+
+
+<!-- portfolio-rights:start -->
+## Copyright
+
+© 2026 Puskar (Royalpuskar). All rights reserved for original project content, except where an applicable license grants permission. Third-party rights and notices remain with their owners.
+<!-- portfolio-rights:end -->
