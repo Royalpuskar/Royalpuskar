@@ -67,6 +67,14 @@ These eleven browser applications are deployed on GitHub Pages. The original nin
 
 [Open Offline Relay](https://royalpuskar.github.io/offline-relay/). GitHub Pages reported deployment complete on 13 November 2026. This is an in-memory simulation, not a deployed synchronization API.
 
+## Data and reproducibility
+
+| Repository | Implemented behavior | Validation |
+| --- | --- | --- |
+| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | SHA-256 fingerprints, dependency validation, baseline comparison, downstream review order, and evidence export | Ten automated tests passed; live comparison, invalid-input handling, and export checked on 18 November 2026 |
+
+[Open Dataset Lineage Map](https://royalpuskar.github.io/dataset-lineage-map/). Text stays in the browser. This workbench flags changes in declared dependencies; it does not execute transformations or certify research accuracy.
+
 ## Working applications
 
 | Project | What it does | Current scope |
