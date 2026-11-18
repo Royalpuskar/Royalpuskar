@@ -1,6 +1,6 @@
 # Independent Project Roadmap
 
-64 original standalone project proposals for Royalpuskar. **Current status: four roadmap projects (`agent-permission-gate`, `token-lifecycle-lab`, `workflow-counterexample`, and `offline-relay`) have implemented research prototypes; the remaining roadmap proposals are not claimed complete.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
+64 original standalone project proposals for Royalpuskar. **Current status: five roadmap projects (`agent-permission-gate`, `token-lifecycle-lab`, `workflow-counterexample`, `offline-relay`, and `dataset-lineage-map`) have implemented research prototypes; the remaining roadmap proposals are not claimed complete.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
 
 ## Six priority projects
 
@@ -8,10 +8,10 @@
 2. [`offline-relay`](https://github.com/Royalpuskar/offline-relay) — implemented delivery simulator with eight tests
 3. [`token-lifecycle-lab`](https://github.com/Royalpuskar/token-lifecycle-lab) — implemented interactive prototype with six tests
 4. `architecture-drift`
-5. `dataset-lineage-map`
+5. [`dataset-lineage-map`](https://github.com/Royalpuskar/dataset-lineage-map) — implemented dependency workbench with ten tests
 6. [`workflow-counterexample`](https://github.com/Royalpuskar/workflow-counterexample) — implemented interactive prototype with nine tests
 
-These remain roadmap priorities, not automatic GitHub pins. Four implemented prototypes are linked above; the other two remain future directions.
+These remain roadmap priorities, not automatic GitHub pins. Five implemented prototypes are linked above; architecture-drift remains a future direction.
 
 ## Delivery standard
 
@@ -369,10 +369,10 @@ Each project should have its own runnable implementation, setup instructions, ar
 
 ### 49. dataset-lineage-map
 
-- Purpose: Trace transformations from source files to published tables.
-- First working version: Record transformation metadata and content hashes.
-- Acceptance check: Changing a source marks dependent outputs stale.
-- Status: proposed; not implemented.
+- Purpose: Trace declared dependencies from source files to published tables.
+- Implemented prototype: Browser-local text-artifact dependency graph, SHA-256 baseline comparison, downstream review order, and evidence export.
+- Acceptance check: Changing a source flags dependent outputs for review; ten automated tests passed and the live comparison, invalid-input handling, and export were exercised on 18 November 2026.
+- Status: **research prototype implemented**. It does not execute transformations or prove provenance.
 
 ### 50. synthetic-data-bench
 
