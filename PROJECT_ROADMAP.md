@@ -1,6 +1,6 @@
 # Independent Project Roadmap
 
-64 original standalone project proposals for Royalpuskar. **Current status: five roadmap projects (`agent-permission-gate`, `token-lifecycle-lab`, `workflow-counterexample`, `offline-relay`, and `dataset-lineage-map`) have implemented research prototypes; the remaining roadmap proposals are not claimed complete.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
+64 original standalone project proposals for Royalpuskar. **Current status: fifteen roadmap projects have published research prototypes. Ten were added on 19 November 2026; see the profile table for repository and website links. A further 29 source projects passed local tests but remain unpublished after GitHub imposed a repository-creation rate limit. These local projects are not counted as GitHub repositories.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
 
 ## Six priority projects
 
@@ -24,21 +24,21 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Time-limited data-sharing permissions with an auditable revocation history.
 - First working version: Build a policy API, expiry checks, and append-only consent receipts.
 - Acceptance check: Expired or revoked grants always deny access.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/consent-ledger) and [web demo](https://royalpuskar.github.io/consent-ledger/). Three automated tests passed; browser smoke checks passed. Current scope: A local policy simulator, not a consent management service or legal compliance assessment.
 
 ### 2. session-observatory
 
 - Purpose: Explainable session-risk monitoring that shows the signals behind each decision.
 - First working version: Replay synthetic sign-in events and produce inspectable risk reports.
 - Acceptance check: Replay yields deterministic scores without collecting real credentials.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/session-observatory) and [web demo](https://royalpuskar.github.io/session-observatory/). Three automated tests passed; browser smoke checks passed. Current scope: Explicit illustrative rules, not an account takeover detector or calibrated probability.
 
 ### 3. secret-boundary
 
 - Purpose: Detect secrets crossing application logging boundaries.
 - First working version: Add a log filter, synthetic secret fixtures, and redaction reports.
 - Acceptance check: Seeded secrets never reach the output logs.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/secret-boundary) and [web demo](https://royalpuskar.github.io/secret-boundary/). Three automated tests passed; browser smoke checks passed. Current scope: Key-based redaction only: it cannot discover secrets hidden in arbitrary strings. Use synthetic data.
 
 ### 4. passkey-recovery-lab
 
@@ -52,7 +52,7 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Show how dependency or configuration changes expand application privileges.
 - First working version: Compare two permission manifests and generate a review report.
 - Acceptance check: Every added permission is identified with its source.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/permission-diff) and [web demo](https://royalpuskar.github.io/permission-diff/). Three automated tests passed; browser smoke checks passed. Current scope: Compares supplied strings only; it does not read cloud policies or determine effective authorization.
 
 ### 6. token-lifecycle-lab
 
@@ -66,14 +66,14 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Test whether tenants can access each other's resources.
 - First working version: Generate paired tenant fixtures and run authorization probes.
 - Acceptance check: All cross-tenant fixture requests are denied.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/tenant-isolation-checker) and [web demo](https://royalpuskar.github.io/tenant-isolation-checker/). Three automated tests passed; browser smoke checks passed. Current scope: Offline fixture audit only; sends no probes and does not verify a real service.
 
 ### 8. privacy-budget-board
 
 - Purpose: Track aggregate query privacy budgets for a synthetic dataset.
 - First working version: Implement a query ledger and basic differential privacy demonstrations.
 - Acceptance check: Queries exceeding the configured budget are rejected.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/privacy-budget-board) and [web demo](https://royalpuskar.github.io/privacy-budget-board/). Three automated tests passed; browser smoke checks passed. Current scope: Educational basic sequential composition ledger. No noise is added and no dataset receives a privacy guarantee.
 
 ## Resilient systems
 
@@ -89,21 +89,21 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Explain concurrent edits and compare conflict-resolution strategies.
 - First working version: Implement a two-client document simulator with reproducible histories.
 - Acceptance check: Both clients converge after all messages arrive.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/conflict-atlas) and [web demo](https://royalpuskar.github.io/conflict-atlas/). Three automated tests passed; browser smoke checks passed. Current scope: Flat scalar-valued records only; conflicts require a human decision. Not a CRDT or automatic reconciliation service.
 
 ### 11. outage-rehearsal
 
 - Purpose: Run controlled service-failure exercises in a local sandbox.
 - First working version: Inject latency, timeouts, and dependency failures into demo services.
 - Acceptance check: Reports link each failure to observed recovery behavior.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/outage-rehearsal) and [web demo](https://royalpuskar.github.io/outage-rehearsal/). Three automated tests passed; browser smoke checks passed. Current scope: Logical-time simulation only. No failure injection, remote traffic, or production service control.
 
 ### 12. queue-compass
 
 - Purpose: Forecast queue congestion and show scheduling tradeoffs.
 - First working version: Build a discrete-event simulator with multiple scheduling policies.
 - Acceptance check: Known fixture workloads produce expected wait times.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/queue-compass) and [web demo](https://royalpuskar.github.io/queue-compass/). Three automated tests passed; browser smoke checks passed. Current scope: Single-server non-preemptive simulation; deterministic service times, no network or scheduler integration.
 
 ### 13. migration-sentinel
 
@@ -117,7 +117,7 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Expose stale-cache behavior through controlled experiments.
 - First working version: Compare TTL, invalidation, and stale-while-revalidate strategies.
 - Acceptance check: Each response identifies data version and freshness.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/cache-truth) and [web demo](https://royalpuskar.github.io/cache-truth/). Three automated tests passed; browser smoke checks passed. Current scope: One-key logical-time TTL model; no actual cache server or invalidation messages.
 
 ### 15. edge-budget
 
