@@ -75,6 +75,25 @@ These eleven browser applications are deployed on GitHub Pages. The original nin
 
 [Open Dataset Lineage Map](https://royalpuskar.github.io/dataset-lineage-map/). Text stays in the browser. This workbench flags changes in declared dependencies; it does not execute transformations or certify research accuracy.
 
+## New tools · November 2026
+
+Ten independent browser-local prototypes were published on 19 November 2026. Each has its own domain engine, synthetic fixture, README, MIT license, and three automated test cases. They share a portfolio UI system. Live smoke checks covered sample results, invalid input, stale-export prevention, and reset; Cache Truth also had filtering and download checks.
+
+| Project | Implemented purpose | Demo |
+| --- | --- | --- |
+| [Consent Ledger](https://github.com/Royalpuskar/consent-ledger) | Evaluate time-limited sharing grants against an auditable event history. | [Website](https://royalpuskar.github.io/consent-ledger/) |
+| [Session Observatory](https://github.com/Royalpuskar/session-observatory) | Explain sign-in risk signals from synthetic session observations. | [Website](https://royalpuskar.github.io/session-observatory/) |
+| [Secret Boundary](https://github.com/Royalpuskar/secret-boundary) | Redact configured sensitive field names from nested JSON before logging. | [Website](https://royalpuskar.github.io/secret-boundary/) |
+| [Permission Diff](https://github.com/Royalpuskar/permission-diff) | Compare permission manifests and surface added or removed privileges. | [Website](https://royalpuskar.github.io/permission-diff/) |
+| [Tenant Isolation Checker](https://github.com/Royalpuskar/tenant-isolation-checker) | Audit supplied authorization decisions for cross-tenant access failures. | [Website](https://royalpuskar.github.io/tenant-isolation-checker/) |
+| [Privacy Budget Board](https://github.com/Royalpuskar/privacy-budget-board) | Track sequential epsilon spending and reject queries exceeding a declared budget. | [Website](https://royalpuskar.github.io/privacy-budget-board/) |
+| [Conflict Atlas](https://github.com/Royalpuskar/conflict-atlas) | Perform a three-way merge of flat records while preserving conflicting edits. | [Website](https://royalpuskar.github.io/conflict-atlas/) |
+| [Outage Rehearsal](https://github.com/Royalpuskar/outage-rehearsal) | Replay synthetic successes and failures through a circuit-breaker state machine. | [Website](https://royalpuskar.github.io/outage-rehearsal/) |
+| [Queue Compass](https://github.com/Royalpuskar/queue-compass) | Compare first-come-first-served and shortest-available-job queue scheduling. | [Website](https://royalpuskar.github.io/queue-compass/) |
+| [Cache Truth](https://github.com/Royalpuskar/cache-truth) | Replay reads and source writes to expose TTL cache staleness. | [Website](https://royalpuskar.github.io/cache-truth/) |
+
+**Delivery status, 19 November 2026:** 32 repositories exist under this account, including the profile repository and existing projects. The 61-repository target is not complete. Another 29 prototype source trees passed local tests but are unpublished after GitHub reported a repository-creation rate limit. Repository count is not a measure of production readiness.
+
 ## Working applications
 
 | Project | What it does | Current scope |
