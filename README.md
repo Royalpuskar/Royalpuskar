@@ -92,7 +92,24 @@ Ten independent browser-local prototypes were published on 19 November 2026. Eac
 | [Queue Compass](https://github.com/Royalpuskar/queue-compass) | Compare first-come-first-served and shortest-available-job queue scheduling. | [Website](https://royalpuskar.github.io/queue-compass/) |
 | [Cache Truth](https://github.com/Royalpuskar/cache-truth) | Replay reads and source writes to expose TTL cache staleness. | [Website](https://royalpuskar.github.io/cache-truth/) |
 
-**Delivery status, 19 November 2026:** 32 repositories exist under this account, including the profile repository and existing projects. The 61-repository target is not complete. Another 29 prototype source trees passed local tests but are unpublished after GitHub reported a repository-creation rate limit. Repository count is not a measure of production readiness.
+**Delivery status, 20 November 2026:** 42 repositories exist under this account, including the profile repository and existing projects. The 61-repository target is not complete. Another 19 prototype source trees passed local tests but are unpublished after GitHub again reported a repository-creation rate limit. Repository count is not a measure of production readiness.
+
+## Developer tools · 20 November 2026
+
+Ten more independent prototypes are deployed on GitHub Pages. This batch passed 31 local automated test cases (four for Edge Budget, three for each other project). Browser smoke checks covered sample results, invalid input, stale-export prevention, and reset. Release Evidence also passed filtering and download checks. These are scoped tools with documented limitations and a shared UI system.
+
+| Project | Implemented purpose | Demo |
+| --- | --- | --- |
+| [Edge Budget](https://github.com/Royalpuskar/edge-budget) | Find the highest-value subset of tasks fitting a memory budget. | [Website](https://royalpuskar.github.io/edge-budget/) |
+| [Replay Harbor](https://github.com/Royalpuskar/replay-harbor) | Replay inventory events and expose the exact event that violates stock invariants. | [Website](https://royalpuskar.github.io/replay-harbor/) |
+| [Architecture Drift](https://github.com/Royalpuskar/architecture-drift) | Audit a declared module dependency graph against allowed layer boundaries. | [Website](https://royalpuskar.github.io/architecture-drift/) |
+| [API Contract Garden](https://github.com/Royalpuskar/api-contract-garden) | Compare simplified endpoint contracts for removals, type changes, and new required fields. | [Website](https://royalpuskar.github.io/api-contract-garden/) |
+| [Test Gap Map](https://github.com/Royalpuskar/test-gap-map) | Intersect changed executable line numbers with supplied coverage to find untested changes. | [Website](https://royalpuskar.github.io/test-gap-map/) |
+| [Dependency Weather](https://github.com/Royalpuskar/dependency-weather) | Surface missing dependency evidence alongside explicit maintenance signals. | [Website](https://royalpuskar.github.io/dependency-weather/) |
+| [Build Budget](https://github.com/Royalpuskar/build-budget) | Compare asset sizes and enforce total and per-asset byte budgets. | [Website](https://royalpuskar.github.io/build-budget/) |
+| [Docs Execution Kit](https://github.com/Royalpuskar/docs-execution-kit) | Validate JSON code examples extracted from Markdown fences. | [Website](https://royalpuskar.github.io/docs-execution-kit/) |
+| [Config Provenance](https://github.com/Royalpuskar/config-provenance) | Merge flat configuration layers and explain each effective value without showing marked secrets. | [Website](https://royalpuskar.github.io/config-provenance/) |
+| [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Audit a release manifest for failed checks, duplicate artifacts, and mismatched SHA-256 digests. | [Website](https://royalpuskar.github.io/release-evidence/) |
 
 ## Working applications
 
