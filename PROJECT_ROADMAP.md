@@ -1,17 +1,17 @@
 # Independent Project Roadmap
 
-64 original standalone project proposals for Royalpuskar. **Current status: fifteen roadmap projects have published research prototypes. Ten were added on 19 November 2026; see the profile table for repository and website links. A further 29 source projects passed local tests but remain unpublished after GitHub imposed a repository-creation rate limit. These local projects are not counted as GitHub repositories.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
+64 original standalone project proposals for Royalpuskar. **Current status: twenty-five roadmap projects have published research prototypes. Ten were added on 19 November and ten more on 20 November 2026. A further 19 source projects passed local tests but remain unpublished after GitHub imposed a repository-creation rate limit. These local projects are not counted as GitHub repositories.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
 
 ## Six priority projects
 
 1. [`agent-permission-gate`](https://github.com/Royalpuskar/agent-permission-gate) — implemented research prototype with tests
 2. [`offline-relay`](https://github.com/Royalpuskar/offline-relay) — implemented delivery simulator with eight tests
 3. [`token-lifecycle-lab`](https://github.com/Royalpuskar/token-lifecycle-lab) — implemented interactive prototype with six tests
-4. `architecture-drift`
+4. [`architecture-drift`](https://github.com/Royalpuskar/architecture-drift) — declared-dependency audit prototype with three tests; source parsing remains future work
 5. [`dataset-lineage-map`](https://github.com/Royalpuskar/dataset-lineage-map) — implemented dependency workbench with ten tests
 6. [`workflow-counterexample`](https://github.com/Royalpuskar/workflow-counterexample) — implemented interactive prototype with nine tests
 
-These remain roadmap priorities, not automatic GitHub pins. Five implemented prototypes are linked above; architecture-drift remains a future direction.
+These remain roadmap priorities, not automatic GitHub pins. All six have implemented prototypes linked above; their README files describe current scope and remaining work.
 
 ## Delivery standard
 
@@ -124,14 +124,14 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Allocate limited compute among competing offline tasks.
 - First working version: Build a scheduler constrained by memory and energy estimates.
 - Acceptance check: No scheduled batch exceeds configured resource limits.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/edge-budget) and [web demo](https://royalpuskar.github.io/edge-budget/). Four automated tests passed, plus browser smoke checks. Current scope: Exact integer knapsack for small inputs; values and memory costs are supplied estimates, not device measurements.
 
 ### 16. replay-harbor
 
 - Purpose: Reproduce service behavior from sanitized event traces.
 - First working version: Build a deterministic event runner with snapshot comparisons.
 - Acceptance check: Repeated runs produce the same state hashes.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/replay-harbor) and [web demo](https://royalpuskar.github.io/replay-harbor/). Three automated tests passed, plus browser smoke checks. Current scope: In-memory event replay. Does not authenticate event sources or persist an event store.
 
 ## Developer tools
 
@@ -140,56 +140,56 @@ Each project should have its own runnable implementation, setup instructions, ar
 - Purpose: Track differences between declared architecture and actual imports.
 - First working version: Parse a supported language and compare dependency rules.
 - Acceptance check: Forbidden fixture imports are reported with file locations.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/architecture-drift) and [web demo](https://royalpuskar.github.io/architecture-drift/). Three automated tests passed, plus browser smoke checks. Current scope: Audits supplied import edges, not source code parsing. Dynamic imports and real repository discovery remain future work.
 
 ### 18. api-contract-garden
 
 - Purpose: Detect breaking API changes with executable examples.
 - First working version: Compare OpenAPI revisions and run saved consumer cases.
 - Acceptance check: Breaking changes in fixtures are correctly classified.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/api-contract-garden) and [web demo](https://royalpuskar.github.io/api-contract-garden/). Three automated tests passed, plus browser smoke checks. Current scope: Restricted JSON schema, not a full OpenAPI compatibility checker. Paths, methods, field types and required names are exact strings.
 
 ### 19. test-gap-map
 
 - Purpose: Find changed behaviors that existing tests do not exercise.
 - First working version: Combine coverage data with a patch and report uncovered lines.
 - Acceptance check: A fixture patch produces the expected uncovered regions.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/test-gap-map) and [web demo](https://royalpuskar.github.io/test-gap-map/). Three automated tests passed, plus browser smoke checks. Current scope: Relies on externally supplied line lists; does not measure coverage or decide which lines are executable.
 
 ### 20. dependency-weather
 
 - Purpose: Inspect dependency health using explicit, inspectable signals.
 - First working version: Import lockfiles and show version, license, and maintenance signals.
 - Acceptance check: Unavailable signals are labeled unknown rather than inferred.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/dependency-weather) and [web demo](https://royalpuskar.github.io/dependency-weather/). Three automated tests passed, plus browser smoke checks. Current scope: Uses supplied observations only; performs no registry queries and cannot determine package safety.
 
 ### 21. build-budget
 
 - Purpose: Explain build-size changes by module and asset.
 - First working version: Compare build manifests and enforce size thresholds.
 - Acceptance check: An oversized fixture fails with an actionable breakdown.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/build-budget) and [web demo](https://royalpuskar.github.io/build-budget/). Three automated tests passed, plus browser smoke checks. Current scope: Input byte counts are supplied build measurements; the tool does not build projects or measure network compression.
 
 ### 22. docs-execution-kit
 
 - Purpose: Keep documentation examples runnable and checked.
 - First working version: Extract fenced examples for one language and execute in isolation.
 - Acceptance check: A broken example fails the documentation check.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/docs-execution-kit) and [web demo](https://royalpuskar.github.io/docs-execution-kit/). Three automated tests passed, plus browser smoke checks. Current scope: Parses JSON examples only. Never executes JavaScript, shell commands, or other supplied code.
 
 ### 23. config-provenance
 
 - Purpose: Show exactly where each effective setting originated.
 - First working version: Merge layered configs with per-key provenance and redaction.
 - Acceptance check: Secret-valued settings remain redacted in all reports.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/config-provenance) and [web demo](https://royalpuskar.github.io/config-provenance/). Three automated tests passed, plus browser smoke checks. Current scope: Flat key override semantics only. Secret detection is based on explicit key names, not content scanning.
 
 ### 24. release-evidence
 
 - Purpose: Collect reproducible test and build evidence for releases.
 - First working version: Generate a manifest linking a commit to checks and artifact hashes.
 - Acceptance check: Changing an artifact invalidates its recorded hash.
-- Status: proposed; not implemented.
+- Status: **research prototype published** on 20 November 2026: [repository](https://github.com/Royalpuskar/release-evidence) and [web demo](https://royalpuskar.github.io/release-evidence/). Three automated tests passed, plus browser smoke checks. Current scope: Compares supplied digest strings; does not hash files, verify signatures, or authenticate CI results.
 
 ## Learning and accessibility
 
