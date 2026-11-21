@@ -46,10 +46,12 @@ Each project should have its own runnable implementation, setup instructions, ar
 
 ### 3. secret-boundary
 
-- Purpose: Detect secrets crossing application logging boundaries.
-- First working version: Add a log filter, synthetic secret fixtures, and redaction reports.
-- Acceptance check: Seeded secrets never reach the output logs.
-- Status: **research prototype published** on 19 November 2026: [repository](https://github.com/Royalpuskar/secret-boundary) and [web demo](https://royalpuskar.github.io/secret-boundary/). Three automated tests passed; browser smoke checks passed. Current scope: Key-based redaction only: it cannot discover secrets hidden in arbitrary strings. Use synthetic data.
+- Purpose: Review explicit redaction rules before exporting structured records.
+- Implemented: Case-insensitive field-name rules, case-sensitive exact paths, escaped property names, array indices, root redaction, unmatched-rule reports, and audit records excluding redacted values.
+- Interface: Dedicated policy sidebar, field inspector with path-selection actions, reviewed output, and separate audit download. Source or rule changes invalidate both downloads.
+- Evidence: Ten local engine tests passed; JavaScript syntax and static selector checks passed.
+- Status: Code committed to [main](https://github.com/Royalpuskar/secret-boundary). Redesigned browser interactions, mobile/4K rendering, remote CI, and deployment of this revision remain unverified.
+- Limitations: Rules do not automatically detect secrets. Unselected values remain in output; audit paths expose field names and structure. No production logging integration.
 
 ### 4. passkey-recovery-lab
 
