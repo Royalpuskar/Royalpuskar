@@ -108,7 +108,7 @@ These browser-local prototypes explore focused privacy and reliability problems.
 | --- | --- | --- |
 | [Consent Ledger](https://github.com/Royalpuskar/consent-ledger) | Evaluate time-limited sharing grants against an auditable event history. | [Website](https://royalpuskar.github.io/consent-ledger/) |
 | [Session Observatory](https://github.com/Royalpuskar/session-observatory) | Explain sign-in risk signals from synthetic session observations. | [Website](https://royalpuskar.github.io/session-observatory/) |
-| [Secret Boundary](https://github.com/Royalpuskar/secret-boundary) | Redact configured sensitive field names from nested JSON before logging. | [Website](https://royalpuskar.github.io/secret-boundary/) |
+| [Secret Boundary](https://github.com/Royalpuskar/secret-boundary) | Inspect JSON fields, redact by field name or exact path, and export a value-free audit. | [Website](https://royalpuskar.github.io/secret-boundary/) |
 | [Permission Diff](https://github.com/Royalpuskar/permission-diff) | Compare permission manifests and surface added or removed privileges. | [Website](https://royalpuskar.github.io/permission-diff/) |
 | [Tenant Isolation Checker](https://github.com/Royalpuskar/tenant-isolation-checker) | Audit supplied authorization decisions for cross-tenant access failures. | [Website](https://royalpuskar.github.io/tenant-isolation-checker/) |
 | [Privacy Budget Board](https://github.com/Royalpuskar/privacy-budget-board) | Track sequential epsilon spending and reject queries exceeding a declared budget. | [Website](https://royalpuskar.github.io/privacy-budget-board/) |
@@ -157,6 +157,10 @@ These scoped prototypes are deployed on GitHub Pages. Local validation covered 3
 [![POKYON checks](https://github.com/Royalpuskar/POKYON/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/POKYON/actions/workflows/verify.yml)
 
 A passing check demonstrates that the **specified tests passed for that revision**, not that a project is secure or production ready.
+
+### Secret Boundary verification
+
+[Redaction Studio source](https://github.com/Royalpuskar/secret-boundary) includes separate policy controls, a field inspector, reviewed output, and audit exports. Ten engine tests passed locally, along with JavaScript syntax and static selector checks. The redesigned interface still needs live-browser, mobile, and 4K verification; its latest deployment is not yet confirmed.
 
 ## How I build
 
