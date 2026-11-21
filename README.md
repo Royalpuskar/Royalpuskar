@@ -1,28 +1,40 @@
 <div align="center">
 
-<!-- portfolio-website:start -->
-## Website
-
-[Open the portfolio profile](https://github.com/Royalpuskar). Individual project websites are linked below; this repository is the profile README, not a separately deployed application.
-<!-- portfolio-website:end -->
-
 # ROYALPUSKAR
 
 ### Cybersecurity · AI Safety · Privacy Engineering · Applied Research
 
-*An Informatics student from Nepal studying in Indonesia, building transparent and testable software.*
+*Informatics student from Nepal, based in Indonesia. Building inspectable software for security, privacy, and reliable systems.*
 
-[Security research](#security-research) · [Applications](#working-applications) · [Engineering approach](#how-i-build) · [Project roadmap](./PROJECT_ROADMAP.md)
+[Selected work](#selected-work) · [Project catalogue](#project-catalogue) · [Engineering approach](#how-i-build) · [Research directions](#research-directions)
 
 </div>
 
 ---
 
-## About this portfolio
+## Research focus
 
-I am interested in cybersecurity engineering, responsible AI, privacy protection, and real-world software reliability. This GitHub account is a public learning and research portfolio for university, scholarship, internship, open-source, and engineering opportunities.
+I study how software behaves when assumptions fail: an agent requests excessive permissions, a token is reused, evidence changes, or a workflow reaches an unsafe state. I build executable models that make those failures visible and their causes inspectable.
 
-My focus is on turning ideas into **runnable prototypes**, documenting how they work, and testing limitations rather than presenting unmeasured capabilities as finished products.
+My interests span **AI security, identity and access control, digital forensics, privacy engineering, and reproducible systems research**. The repositories below contain scoped implementations with source code, examples, tests, and explicit boundaries.
+
+## Selected work
+
+| Project | Technical question | Explore |
+| --- | --- | --- |
+| **Workflow Counterexample** | Can a bounded state-space search find a shortest trace to a safety violation? | [Source](https://github.com/Royalpuskar/workflow-counterexample) · [Interactive replay](https://royalpuskar.github.io/workflow-counterexample/) |
+| **Token Lifecycle Lab** | What happens to a token family after refresh-token reuse, expiry, or revocation? | [Source](https://github.com/Royalpuskar/token-lifecycle-lab) · [Simulator](https://royalpuskar.github.io/token-lifecycle-lab/) |
+| **Dataset Lineage Map** | Which declared downstream dependencies need review when source content changes? | [Source](https://github.com/Royalpuskar/dataset-lineage-map) · [Workbench](https://royalpuskar.github.io/dataset-lineage-map/) |
+| **TRACEZERO** | How can hashes and custody records expose changes in digital evidence? | [Source](https://github.com/Royalpuskar/TRACEZERO) · [Demo](https://royalpuskar.github.io/TRACEZERO/) |
+| **COGNISHIELD** | How can explicit policies expose suspicious prompts and constrain proposed agent actions? | [Source](https://github.com/Royalpuskar/COGNISHIELD) · [Policy scenarios](https://royalpuskar.github.io/COGNISHIELD/) |
+| **SENTINEL-X** | How can defensive events be correlated into alerts with inspectable reasons? | [Source](https://github.com/Royalpuskar/SENTINEL-X) · [Event workbench](https://royalpuskar.github.io/SENTINEL-X/) |
+
+**Start with a runnable example, inspect its engine, then reproduce its tests.** These are research and learning prototypes. Simulation results describe the implemented model; they do not establish real-world detection accuracy or production security.
+
+## Project catalogue
+
+<details>
+<summary><strong>Security, privacy, reliability, developer tools, and applications</strong></summary>
 
 ## Security research
 
@@ -44,7 +56,7 @@ Each project is an **independent research prototype**, not a professionally cert
 
 ## Live research demos
 
-These eleven browser applications are deployed on GitHub Pages. The original nine were smoke-tested on 12 November 2026. Token Lifecycle Lab and Workflow Counterexample were exercised on 13 November 2026; smoke tests do not establish production readiness.
+These browser applications have been deployed on GitHub Pages and exercised with scoped smoke checks. Per-project documentation describes behavior and verification limits.
 
 - [SENTINEL-X — open web demo](https://royalpuskar.github.io/SENTINEL-X/)
 - [COGNISHIELD — open web demo](https://royalpuskar.github.io/COGNISHIELD/)
@@ -65,19 +77,19 @@ These eleven browser applications are deployed on GitHub Pages. The original nin
 | --- | --- | --- |
 | [Offline Relay](https://github.com/Royalpuskar/offline-relay) | Two-client delivery simulator, version checks, duplicate suppression, and reviewed conflicts | Eight protocol tests passed locally; live-browser interaction check pending |
 
-[Open Offline Relay](https://royalpuskar.github.io/offline-relay/). GitHub Pages reported deployment complete on 13 November 2026. This is an in-memory simulation, not a deployed synchronization API.
+[Open Offline Relay](https://royalpuskar.github.io/offline-relay/). GitHub Pages deployment was confirmed. This is an in-memory simulation, not a deployed synchronization API.
 
 ## Data and reproducibility
 
 | Repository | Implemented behavior | Validation |
 | --- | --- | --- |
-| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | SHA-256 fingerprints, dependency validation, baseline comparison, downstream review order, and evidence export | Ten automated tests passed; live comparison, invalid-input handling, and export checked on 18 November 2026 |
+| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | SHA-256 fingerprints, dependency validation, baseline comparison, downstream review order, and evidence export | Ten automated tests passed; live comparison, invalid-input handling, and export checked |
 
 [Open Dataset Lineage Map](https://royalpuskar.github.io/dataset-lineage-map/). Text stays in the browser. This workbench flags changes in declared dependencies; it does not execute transformations or certify research accuracy.
 
-## New tools · November 2026
+## Privacy and reliability tools
 
-Ten independent browser-local prototypes were published on 19 November 2026. Each has its own domain engine, synthetic fixture, README, MIT license, and three automated test cases. They share a portfolio UI system. Live smoke checks covered sample results, invalid input, stale-export prevention, and reset; Cache Truth also had filtering and download checks.
+These browser-local prototypes explore focused privacy and reliability problems. Each has its own domain engine, synthetic fixture, README, MIT license, and three automated test cases. They share a portfolio UI system. Live smoke checks covered sample results, invalid input, stale-export prevention, and reset; Cache Truth also had filtering and download checks.
 
 | Project | Implemented purpose | Demo |
 | --- | --- | --- |
@@ -92,11 +104,9 @@ Ten independent browser-local prototypes were published on 19 November 2026. Eac
 | [Queue Compass](https://github.com/Royalpuskar/queue-compass) | Compare first-come-first-served and shortest-available-job queue scheduling. | [Website](https://royalpuskar.github.io/queue-compass/) |
 | [Cache Truth](https://github.com/Royalpuskar/cache-truth) | Replay reads and source writes to expose TTL cache staleness. | [Website](https://royalpuskar.github.io/cache-truth/) |
 
-**Delivery status, 20 November 2026:** 42 repositories exist under this account, including the profile repository and existing projects. The 61-repository target is not complete. Another 19 prototype source trees passed local tests but are unpublished after GitHub again reported a repository-creation rate limit. Repository count is not a measure of production readiness.
+## Developer tools
 
-## Developer tools · 20 November 2026
-
-Ten more independent prototypes are deployed on GitHub Pages. This batch passed 31 local automated test cases (four for Edge Budget, three for each other project). Browser smoke checks covered sample results, invalid input, stale-export prevention, and reset. Release Evidence also passed filtering and download checks. These are scoped tools with documented limitations and a shared UI system.
+These scoped prototypes are deployed on GitHub Pages. Local validation covered 31 automated test cases across these ten projects (four for Edge Budget, three for each other project). Browser smoke checks covered sample results, invalid input, stale-export prevention, and reset. Release Evidence also passed filtering and download checks. These are scoped tools with documented limitations and a shared UI system.
 
 | Project | Implemented purpose | Demo |
 | --- | --- | --- |
@@ -123,7 +133,9 @@ Ten more independent prototypes are deployed on GitHub Pages. This batch passed 
 | [POKYON Android Lab](https://github.com/Royalpuskar/POKYON-) | Experimental Android game screens and embedded web scenes | Android prototype; release builds and payments not verified |
 | [Sumitra Shoes Centre](https://github.com/Royalpuskar/SUMITRA-SHOES-CENTRE-) | Interactive static footwear lookbook + PHP/MySQL store demo | Static catalogue and unpaid local demo orders; **no real payment processing** |
 
-### CI examples
+</details>
+
+## Reproducible checks
 
 [![SentinelMesh checks](https://github.com/Royalpuskar/SENTINEL-X/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/SENTINEL-X/actions/workflows/verify.yml)
 [![GANDOPS checks](https://github.com/Royalpuskar/GANDOPS-WEB/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/GANDOPS-WEB/actions/workflows/verify.yml)
@@ -142,14 +154,18 @@ A passing check demonstrates that the **specified tests passed for that revision
 
 **Technologies used across repositories:** Python, JavaScript, HTML/CSS, Node.js, PHP/MySQL, Kotlin/Jetpack Compose, GitHub Actions, and browser security APIs. My proficiency continues to develop through these projects.
 
-## What I am researching next
+## Research directions
 
 - Testing prompt-injection and tool-use defenses under realistic constraints.
 - Stronger reproducibility and evaluation datasets for defensive security tools.
 - Secure application authentication, credential handling, and privacy-by-design systems.
 - Deployment, accessibility, and integration testing for portfolio web applications.
 
-See the [independent project roadmap](./PROJECT_ROADMAP.md) for additional proposals. Roadmap entries are **not** completed achievements.
+The [project roadmap](./PROJECT_ROADMAP.md) records proposals and implementation scope. New work must add a distinct technical question, meaningful behavior, and an interface designed for its task. Overlapping ideas belong in existing projects.
+
+## Collaboration
+
+I welcome reproducible bug reports, adversarial test cases, accessibility feedback, and thoughtful code review. Open an issue in the relevant repository with a minimal example, expected behavior, and observed result. Please use each project's security guidance for sensitive findings.
 
 ---
 
