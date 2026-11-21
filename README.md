@@ -35,7 +35,7 @@ My interests span **AI security, identity and access control, digital forensics,
 
 | Project | Technical question | Explore |
 | --- | --- | --- |
-| **Workflow Counterexample** | Can a bounded state-space search find a shortest trace to a safety violation? | [Source](https://github.com/Royalpuskar/workflow-counterexample) · [Interactive replay](https://royalpuskar.github.io/workflow-counterexample/) |
+| **Workflow Counterexample** | What minimum transition removals prevent unsafe reachability while preserving useful goals? | [Source](https://github.com/Royalpuskar/workflow-counterexample) · [Repair workbench](https://royalpuskar.github.io/workflow-counterexample/repair.html) |
 | **Token Lifecycle Lab** | What happens to a token family after refresh-token reuse, expiry, or revocation? | [Source](https://github.com/Royalpuskar/token-lifecycle-lab) · [Simulator](https://royalpuskar.github.io/token-lifecycle-lab/) |
 | **Dataset Lineage Map** | Which declared downstream dependencies need review when source content changes? | [Source](https://github.com/Royalpuskar/dataset-lineage-map) · [Workbench](https://royalpuskar.github.io/dataset-lineage-map/) |
 | **TRACEZERO** | How can hashes and custody records expose changes in digital evidence? | [Source](https://github.com/Royalpuskar/TRACEZERO) · [Demo](https://royalpuskar.github.io/TRACEZERO/) |
@@ -62,7 +62,7 @@ My interests span **AI security, identity and access control, digital forensics,
 | [NEUROGRID](https://github.com/Royalpuskar/NEUROGRID) | Capability-aware dependent-task scheduling | Deterministic planning engine |
 | [agent-permission-gate](https://github.com/Royalpuskar/agent-permission-gate) | Default-deny access decisions for agents | Policy engine and test cases |
 | [token-lifecycle-lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh rotation, expiry, and family reuse revocation | Interactive simulator and six behavior tests |
-| [workflow-counterexample](https://github.com/Royalpuskar/workflow-counterexample) | Finite-state safety checks and shortest failure traces | Bounded BFS engine, replay workbench, nine behavior tests |
+| [workflow-counterexample](https://github.com/Royalpuskar/workflow-counterexample) | Finite-state safety checks and shortest failure traces | BFS checker, minimum repair planner, 19 local behavior tests |
 | [OpenResearch-Nepal](https://github.com/Royalpuskar/OpenResearch-Nepal) | Reproducibility metadata and basic experiment summaries | Inspectable datasets and checks |
 
 Each project is an **independent research prototype**, not a professionally certified security product. The research repositories contain runnable browser examples and automated JavaScript tests; the original nine also include Python reference engines.
