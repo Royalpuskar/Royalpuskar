@@ -6,11 +6,24 @@
 
 *Informatics student from Nepal, based in Indonesia. Building inspectable software for security, privacy, and reliable systems.*
 
-[Selected work](#selected-work) · [Project catalogue](#project-catalogue) · [Engineering approach](#how-i-build) · [Research directions](#research-directions)
+[Hackathon projects](#hackathon-engineering-projects) · [Selected work](#selected-work) · [Project catalogue](#project-catalogue) · [Engineering approach](#how-i-build) · [Research directions](#research-directions)
 
 </div>
 
 ---
+
+## Hackathon engineering projects
+
+Four independent projects exploring secure releases, graph-based trust, incident-response education and consent-aware agent workflows. These are work in progress, not competition awards or completed submissions.
+
+| Event | Project | Development evidence |
+| --- | --- | --- |
+| **Qodo Software Factory Hackathon** | [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Registered; [CLI verification PR](https://github.com/Royalpuskar/release-evidence/pull/2), [Evidence Desk PR](https://github.com/Royalpuskar/release-evidence/pull/3), [existing live auditor](https://royalpuskar.github.io/release-evidence/) |
+| **Relate by Neo4j** | [Trust Path Explorer](https://github.com/Royalpuskar/trust-path-explorer) | Synthetic dependency graph and Cypher queries; Relate execution pending |
+| **GenHacks** | [Incident Handoff Lab](https://github.com/Royalpuskar/incident-handoff-lab) | Synthetic training prototype; [five engine tests passed](https://github.com/Royalpuskar/incident-handoff-lab/actions/runs/44865809584) |
+| **Cognizant Open Agentic Web Challenge** | [Consent Route Studio](https://github.com/Royalpuskar/consent-route-studio) | Design proposal; entrant contribution and specification integration pending |
+
+Qodo registration is confirmed by the entrant; registration for the other events and all official submissions remain unconfirmed. AI assistance is disclosed where required; test and review links point to actual repository evidence.
 
 ## Research focus
 
