@@ -1,6 +1,17 @@
 # Independent Project Roadmap
 
-64 original standalone project proposals for Royalpuskar. **Current status: twenty-five roadmap projects have published research prototypes. Ten were added on 19 November and ten more on 20 November 2026. A further 19 source projects passed local tests but remain unpublished after GitHub imposed a repository-creation rate limit. These local projects are not counted as GitHub repositories.** Names are suggestions, subject to availability. These are engineering directions, not claims of unprecedented invention or production readiness.
+The long-term target is more than 100 distinct working tools across independent repositories. This is a development target, not a completion claim. The initial 64 proposals below remain subject to review; overlapping ideas should extend existing projects.
+
+## Interface and implementation standard
+
+- Compare each candidate's problem, inputs, algorithm, outputs, audience, and workflow against existing repositories. Renaming, recoloring, or swapping fixtures does not make a distinct project.
+- Design each website around its task: packet conversation viewers, topology editors, evidence timelines, decision trees, byte inspectors, or command workspaces. Do not default to repeated JSON dashboards.
+- Use movable floating inspectors where they help the task, with keyboard alternatives, bounded positioning, touch controls, and a reset layout action.
+- Test at 3840×2160, laptop, and mobile viewports before claiming verified display support. Check text scaling, focus visibility, overflow, reduced motion, and usable controls. CSS breakpoints alone are not verification.
+- Require working primary actions, meaningful tests, reproducible examples, architecture notes, security boundaries, license, contribution guidance, and honest limitations.
+- Distinguish local implementation, automated testing, browser verification, repository publication, and deployment. Add website links to README and About only after deployment is confirmed.
+- Keep public writing focused on methods and evidence. Do not claim unprecedented invention, rankings, or guaranteed outcomes.
+- Review the unpublished bulk batch before publication. Earlier shared-layout prototypes need task-specific redesign; they are not a template for new work.
 
 ## Six priority projects
 
