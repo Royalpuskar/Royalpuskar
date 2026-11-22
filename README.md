@@ -1,221 +1,65 @@
-<div align="center">
-
 # ROYALPUSKAR
 
-### Cybersecurity · AI Safety · Privacy Engineering · Applied Research
+**Cybersecurity · AI safety · Privacy engineering · Reproducible research**
 
-*Informatics student from Nepal, based in Indonesia. Building inspectable software for security, privacy, and reliable systems.*
+Informatics student from Nepal, based in Indonesia. I build inspectable software that helps people understand security decisions, evidence and system failures.
 
-[Flagship project](#flagship-project--social-mind-ai) · [Portfolio showcase](#portfolio-showcase) · [Hackathon projects](#hackathon-engineering-projects) · [Selected work](#selected-work) · [Project catalogue](#project-catalogue) · [Engineering approach](#how-i-build) · [Research directions](#research-directions)
+[Explore my repositories](https://github.com/Royalpuskar?tab=repositories) · [Full project catalogue](./PORTFOLIO.md) · [Research roadmap](./PROJECT_ROADMAP.md)
 
-</div>
+## Featured project — Social Mind AI
 
----
+**2026 Microsoft hackathon project** — a digital safety research prototype exploring explainable scam-message indicators and suspicious URL structure. Local browser analysis and Python reference implementations keep the research reproducible.
 
-## Flagship project — Social Mind AI
+[Source and setup](https://github.com/Royalpuskar/Social-Mind-AI) · [Automated checks](https://github.com/Royalpuskar/Social-Mind-AI/actions)
 
-[Social Mind AI — Digital Safety Research Lab](https://github.com/Royalpuskar/Social-Mind-AI) is my 2026 Microsoft hackathon project, as identified by me. It explores transparent, local scam-message triage and URL structure analysis. The current repository contains a browser prototype, Python analyzers and reproducible test instructions. No hackathon award or independently verified submission result is claimed.
+Hackathon participation is self-reported; no award or ranking is claimed. The current rule-based prototype is not a certified detector or a deployed AI model.
 
-[Source and setup](https://github.com/Royalpuskar/Social-Mind-AI) · [Repository checks](https://github.com/Royalpuskar/Social-Mind-AI/actions)
+## Selected engineering work
 
-## Portfolio showcase
-
-Existing projects suitable for a public portfolio, each linked to its own repository and documented scope. This catalogue does not represent Devpost submissions or awards.
-
-| Project | Focus |
+| Project | What to explore |
 | --- | --- |
-| [Social Mind AI](https://github.com/Royalpuskar/Social-Mind-AI) | Explainable scam-message indicators and URL analysis |
-| [PhishScope](https://github.com/Royalpuskar/PhishScope) | Inspect URL structure without visiting destinations |
-| [PrivacyLens](https://github.com/Royalpuskar/PrivacyLens) | Personal-data exposure awareness |
-| [Permission Gate](https://github.com/Royalpuskar/agent-permission-gate) | Default-deny automation policies |
-| [Token Lifecycle Lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh-token rotation and replay simulation |
-| [Consent Ledger](https://github.com/Royalpuskar/consent-ledger) | Time-limited sharing grants |
-| [Secret Boundary](https://github.com/Royalpuskar/secret-boundary) | Local JSON redaction and audit |
-| [Permission Diff](https://github.com/Royalpuskar/permission-diff) | Declared privilege changes and implications |
-| [Tenant Isolation Checker](https://github.com/Royalpuskar/tenant-isolation-checker) | Audit supplied cross-tenant access decisions |
-| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | Dependency fingerprints and change impact |
-| [Test Gap Map](https://github.com/Royalpuskar/test-gap-map) | Coverage evidence for changed lines |
-| [API Contract Garden](https://github.com/Royalpuskar/api-contract-garden) | Simplified API compatibility analysis |
+| [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Release manifest auditing, local SHA-256 verification and evidence-gated review. [Integrated candidate](https://github.com/Royalpuskar/release-evidence/pull/9) |
+| [Trust Path Explorer](https://github.com/Royalpuskar/trust-path-explorer) | Real Relate graph queries exposing indirect dependencies and contradictory evidence. [Development PR](https://github.com/Royalpuskar/trust-path-explorer/pull/1) |
+| [Workflow Counterexample](https://github.com/Royalpuskar/workflow-counterexample) | Finite-state safety analysis and minimum repair planning. [Interactive workbench](https://royalpuskar.github.io/workflow-counterexample/repair.html) |
+| [Token Lifecycle Lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh-token rotation, reuse detection and family revocation. [Simulator](https://royalpuskar.github.io/token-lifecycle-lab/) |
+| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | SHA-256 fingerprints and downstream change impact. [Demo](https://royalpuskar.github.io/dataset-lineage-map/) |
+| [COGNISHIELD](https://github.com/Royalpuskar/COGNISHIELD) | Local prompt-risk indicators and agent action policies. [Demo](https://royalpuskar.github.io/COGNISHIELD/) |
+
+[See the complete project catalogue →](./PORTFOLIO.md)
+
+## Recent engineering milestones
+
+Revision-specific results from actual GitHub Actions and code reviews, not competition awards.
+
+| Project | Verified milestone |
+| --- | --- |
+| Release Evidence | [15/15 Node tests passed](https://github.com/Royalpuskar/release-evidence/actions/runs/45004487148/job/137152918746); [Qodo review with no open findings](https://github.com/Royalpuskar/release-evidence/pull/9#issuecomment-7076608139) at `f6c99e2` |
+| Trust Path Explorer | [2/2 integration tests passed](https://github.com/Royalpuskar/trust-path-explorer/actions/runs/45005350966/job/137155631628) using Relate 1.1.0, head `ebabc35` |
+| Incident Handoff Lab | [8/8 tests passed](https://github.com/Royalpuskar/incident-handoff-lab/actions/runs/45004942432/job/137154311378), including all 1,024 synthetic answer combinations, head `3941a01` |
 
 ## Hackathon engineering projects
 
-Four independent projects exploring secure releases, graph-based trust, incident-response education and consent-aware agent workflows. These are work in progress, not competition awards or completed submissions.
+| Event | Entry under development |
+| --- | --- |
+| Qodo Software Factory | [Release Evidence](https://github.com/Royalpuskar/release-evidence/pull/9) — integrated candidate; full browser validation and submission pending |
+| Relate by Neo4j | [Trust Path Explorer](https://github.com/Royalpuskar/trust-path-explorer/pull/1) — database-backed offline report; visual validation pending |
+| GenHacks | [Incident Handoff Lab](https://github.com/Royalpuskar/incident-handoff-lab/pull/1) — defensive training prototype; browser validation pending |
+| Cognizant Open Agentic Web | [Consent Route Studio](https://github.com/Royalpuskar/consent-route-studio/pull/1) — specification plan; entrant implementation pending |
 
-| Event | Project | Development evidence |
-| --- | --- | --- |
-| **Qodo Software Factory Hackathon** | [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Registered; [integrated draft PR #9](https://github.com/Royalpuskar/release-evidence/pull/9), [15/15 Node tests passed](https://github.com/Royalpuskar/release-evidence/actions/runs/45004487148/job/137152918746), [clean Qodo review at f6c99e2](https://github.com/Royalpuskar/release-evidence/pull/9#issuecomment-7076608139); integrated deployment pending |
-| **Relate by Neo4j** | [Trust Path Explorer](https://github.com/Royalpuskar/trust-path-explorer) | [Relate runtime and offline report PR](https://github.com/Royalpuskar/trust-path-explorer/pull/1); [two real database integration tests passed](https://github.com/Royalpuskar/trust-path-explorer/actions/runs/45005350966/job/137155631628), head ebabc35; visual validation pending |
-| **GenHacks** | [Incident Handoff Lab](https://github.com/Royalpuskar/incident-handoff-lab) | [Training prototype PR](https://github.com/Royalpuskar/incident-handoff-lab/pull/1); [eight tests passed](https://github.com/Royalpuskar/incident-handoff-lab/actions/runs/45004942432/job/137154311378), including all 1,024 synthetic answer combinations, head 3941a01 |
-| **Cognizant Open Agentic Web Challenge** | [Consent Route Studio](https://github.com/Royalpuskar/consent-route-studio) | [Specification acceptance plan](https://github.com/Royalpuskar/consent-route-studio/pull/1); entrant contribution and implementation pending |
+Qodo registration is confirmed by me; other registrations and official submissions remain unconfirmed. AI-assisted development is disclosed where required. These candidates are not yet deployed as integrated releases.
 
-Qodo registration is confirmed by the entrant; registration for the other events and all official submissions remain unconfirmed. AI assistance is disclosed where required; test and review links point to actual repository evidence.
+## Technologies
 
-## Research focus
+Python · JavaScript · Node.js · HTML/CSS · Relate/Cypher · Git · GitHub Actions · Browser Web Crypto
 
-I study how software behaves when assumptions fail: an agent requests excessive permissions, a token is reused, evidence changes, or a workflow reaches an unsafe state. I build executable models that make those failures visible and their causes inspectable.
+My research interests include AI agent permissions, identity security, data privacy, software integrity and reproducible testing. Projects are scoped learning and research prototypes, not claims of production readiness.
 
-My interests span **AI security, identity and access control, digital forensics, privacy engineering, and reproducible systems research**. The repositories below contain scoped implementations with source code, examples, tests, and explicit boundaries.
+## Open-source collaboration
 
-## Selected work
-
-| Project | Technical question | Explore |
-| --- | --- | --- |
-| **Workflow Counterexample** | What minimum transition removals prevent unsafe reachability while preserving useful goals? | [Source](https://github.com/Royalpuskar/workflow-counterexample) · [Repair workbench](https://royalpuskar.github.io/workflow-counterexample/repair.html) |
-| **Token Lifecycle Lab** | What happens to a token family after refresh-token reuse, expiry, or revocation? | [Source](https://github.com/Royalpuskar/token-lifecycle-lab) · [Simulator](https://royalpuskar.github.io/token-lifecycle-lab/) |
-| **Dataset Lineage Map** | Which declared downstream dependencies need review when source content changes? | [Source](https://github.com/Royalpuskar/dataset-lineage-map) · [Workbench](https://royalpuskar.github.io/dataset-lineage-map/) |
-| **TRACEZERO** | How can hashes and custody records expose changes in digital evidence? | [Source](https://github.com/Royalpuskar/TRACEZERO) · [Demo](https://royalpuskar.github.io/TRACEZERO/) |
-| **COGNISHIELD** | How can explicit policies expose suspicious prompts and constrain proposed agent actions? | [Source](https://github.com/Royalpuskar/COGNISHIELD) · [Policy scenarios](https://royalpuskar.github.io/COGNISHIELD/) |
-| **SENTINEL-X** | How can defensive events be correlated into alerts with inspectable reasons? | [Source](https://github.com/Royalpuskar/SENTINEL-X) · [Event workbench](https://royalpuskar.github.io/SENTINEL-X/) |
-
-**Start with a runnable example, inspect its engine, then reproduce its tests.** These are research and learning prototypes. Simulation results describe the implemented model; they do not establish real-world detection accuracy or production security.
-
-## Project catalogue
-
-<details>
-<summary><strong>Security, privacy, reliability, developer tools, and applications</strong></summary>
-
-## Security research
-
-| Repository | Focus | Evidence |
-| --- | --- | --- |
-| [SENTINEL-X](https://github.com/Royalpuskar/SENTINEL-X) · SentinelMesh | Defensive event correlation and explainable alerts | Browser workbench, JS/Python engines, contract tests |
-| [COGNISHIELD](https://github.com/Royalpuskar/COGNISHIELD) · TrustLayer AI | Prompt-injection signals and agent action policies | Local policy scenarios and tests |
-| [GHOSTKEY](https://github.com/Royalpuskar/GHOSTKEY) | Credential lifecycle simulation and scope checks | Issuance/revocation simulation and tests |
-| [TRACEZERO](https://github.com/Royalpuskar/TRACEZERO) | Evidence hashing and tamper-evident custody chains | Reproducible validation fixtures |
-| [PhishScope](https://github.com/Royalpuskar/PhishScope) | URL structure warning indicators | Browser URL triage and Python reference |
-| [PrivacyLens](https://github.com/Royalpuskar/PrivacyLens) | Personal-data exposure prioritization | Local illustrative risk model |
-| [NEUROGRID](https://github.com/Royalpuskar/NEUROGRID) | Capability-aware dependent-task scheduling | Deterministic planning engine |
-| [agent-permission-gate](https://github.com/Royalpuskar/agent-permission-gate) | Default-deny access decisions for agents | Policy engine and test cases |
-| [token-lifecycle-lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh rotation, expiry, and family reuse revocation | Interactive simulator and six behavior tests |
-| [workflow-counterexample](https://github.com/Royalpuskar/workflow-counterexample) | Finite-state safety checks and shortest failure traces | BFS checker, minimum repair planner, 19 local behavior tests |
-| [OpenResearch-Nepal](https://github.com/Royalpuskar/OpenResearch-Nepal) | Reproducibility metadata and basic experiment summaries | Inspectable datasets and checks |
-
-Each project is an **independent research prototype**, not a professionally certified security product. The research repositories contain runnable browser examples and automated JavaScript tests; the original nine also include Python reference engines.
-
-## Live research demos
-
-These browser applications have been deployed on GitHub Pages and exercised with scoped smoke checks. Per-project documentation describes behavior and verification limits.
-
-- [SENTINEL-X — open web demo](https://royalpuskar.github.io/SENTINEL-X/)
-- [COGNISHIELD — open web demo](https://royalpuskar.github.io/COGNISHIELD/)
-- [GHOSTKEY — open web demo](https://royalpuskar.github.io/GHOSTKEY/)
-- [NEUROGRID — open web demo](https://royalpuskar.github.io/NEUROGRID/)
-- [TRACEZERO — open web demo](https://royalpuskar.github.io/TRACEZERO/)
-- [PhishScope — open web demo](https://royalpuskar.github.io/PhishScope/)
-- [PrivacyLens — open web demo](https://royalpuskar.github.io/PrivacyLens/)
-- [OpenResearch-Nepal — open web demo](https://royalpuskar.github.io/OpenResearch-Nepal/)
-- [agent-permission-gate — open web demo](https://royalpuskar.github.io/agent-permission-gate/)
-
-- [Token Lifecycle Lab — open web demo](https://royalpuskar.github.io/token-lifecycle-lab/)
-- [Workflow Counterexample — open web demo](https://royalpuskar.github.io/workflow-counterexample/)
-
-## Resilient systems
-
-| Repository | Implemented behavior | Validation |
-| --- | --- | --- |
-| [Offline Relay](https://github.com/Royalpuskar/offline-relay) | Two-client delivery simulator, version checks, duplicate suppression, and reviewed conflicts | Eight protocol tests passed locally; live-browser interaction check pending |
-
-[Open Offline Relay](https://royalpuskar.github.io/offline-relay/). GitHub Pages deployment was confirmed. This is an in-memory simulation, not a deployed synchronization API.
-
-## Data and reproducibility
-
-| Repository | Implemented behavior | Validation |
-| --- | --- | --- |
-| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | SHA-256 fingerprints, dependency validation, baseline comparison, downstream review order, and evidence export | Ten automated tests passed; live comparison, invalid-input handling, and export checked |
-
-[Open Dataset Lineage Map](https://royalpuskar.github.io/dataset-lineage-map/). Text stays in the browser. This workbench flags changes in declared dependencies; it does not execute transformations or certify research accuracy.
-
-## Privacy and reliability tools
-
-These browser-local prototypes explore focused privacy and reliability problems. Each has its own domain engine, synthetic fixture, README, MIT license, and three automated test cases. They share a portfolio UI system. Live smoke checks covered sample results, invalid input, stale-export prevention, and reset; Cache Truth also had filtering and download checks.
-
-| Project | Implemented purpose | Demo |
-| --- | --- | --- |
-| [Consent Ledger](https://github.com/Royalpuskar/consent-ledger) | Evaluate time-limited sharing grants against an auditable event history. | [Website](https://royalpuskar.github.io/consent-ledger/) |
-| [Session Observatory](https://github.com/Royalpuskar/session-observatory) | Explain sign-in risk signals from synthetic session observations. | [Website](https://royalpuskar.github.io/session-observatory/) |
-| [Secret Boundary](https://github.com/Royalpuskar/secret-boundary) | Inspect JSON fields, redact by field name or exact path, and export a value-free audit. | [Website](https://royalpuskar.github.io/secret-boundary/) |
-| [Permission Diff](https://github.com/Royalpuskar/permission-diff) | Compare permission manifests and surface added or removed privileges. | [Website](https://royalpuskar.github.io/permission-diff/) |
-| [Tenant Isolation Checker](https://github.com/Royalpuskar/tenant-isolation-checker) | Audit supplied authorization decisions for cross-tenant access failures. | [Website](https://royalpuskar.github.io/tenant-isolation-checker/) |
-| [Privacy Budget Board](https://github.com/Royalpuskar/privacy-budget-board) | Track sequential epsilon spending and reject queries exceeding a declared budget. | [Website](https://royalpuskar.github.io/privacy-budget-board/) |
-| [Conflict Atlas](https://github.com/Royalpuskar/conflict-atlas) | Perform a three-way merge of flat records while preserving conflicting edits. | [Website](https://royalpuskar.github.io/conflict-atlas/) |
-| [Outage Rehearsal](https://github.com/Royalpuskar/outage-rehearsal) | Replay synthetic successes and failures through a circuit-breaker state machine. | [Website](https://royalpuskar.github.io/outage-rehearsal/) |
-| [Queue Compass](https://github.com/Royalpuskar/queue-compass) | Compare first-come-first-served and shortest-available-job queue scheduling. | [Website](https://royalpuskar.github.io/queue-compass/) |
-| [Cache Truth](https://github.com/Royalpuskar/cache-truth) | Replay reads and source writes to expose TTL cache staleness. | [Website](https://royalpuskar.github.io/cache-truth/) |
-
-## Developer tools
-
-These scoped prototypes are deployed on GitHub Pages. Local validation covered 31 automated test cases across these ten projects (four for Edge Budget, three for each other project). Browser smoke checks covered sample results, invalid input, stale-export prevention, and reset. Release Evidence also passed filtering and download checks. These are scoped tools with documented limitations and a shared UI system.
-
-| Project | Implemented purpose | Demo |
-| --- | --- | --- |
-| [Edge Budget](https://github.com/Royalpuskar/edge-budget) | Find the highest-value subset of tasks fitting a memory budget. | [Website](https://royalpuskar.github.io/edge-budget/) |
-| [Replay Harbor](https://github.com/Royalpuskar/replay-harbor) | Replay inventory events and expose the exact event that violates stock invariants. | [Website](https://royalpuskar.github.io/replay-harbor/) |
-| [Architecture Drift](https://github.com/Royalpuskar/architecture-drift) | Audit a declared module dependency graph against allowed layer boundaries. | [Website](https://royalpuskar.github.io/architecture-drift/) |
-| [API Contract Garden](https://github.com/Royalpuskar/api-contract-garden) | Compare simplified endpoint contracts for removals, type changes, and new required fields. | [Website](https://royalpuskar.github.io/api-contract-garden/) |
-| [Test Gap Map](https://github.com/Royalpuskar/test-gap-map) | Intersect changed executable line numbers with supplied coverage to find untested changes. | [Website](https://royalpuskar.github.io/test-gap-map/) |
-| [Dependency Weather](https://github.com/Royalpuskar/dependency-weather) | Surface missing dependency evidence alongside explicit maintenance signals. | [Website](https://royalpuskar.github.io/dependency-weather/) |
-| [Build Budget](https://github.com/Royalpuskar/build-budget) | Compare asset sizes and enforce total and per-asset byte budgets. | [Website](https://royalpuskar.github.io/build-budget/) |
-| [Docs Execution Kit](https://github.com/Royalpuskar/docs-execution-kit) | Validate JSON code examples extracted from Markdown fences. | [Website](https://royalpuskar.github.io/docs-execution-kit/) |
-| [Config Provenance](https://github.com/Royalpuskar/config-provenance) | Merge flat configuration layers and explain each effective value without showing marked secrets. | [Website](https://royalpuskar.github.io/config-provenance/) |
-| [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Audit a release manifest for failed checks, duplicate artifacts, and mismatched SHA-256 digests. | [Website](https://royalpuskar.github.io/release-evidence/) |
-
-## Working applications
-
-| Project | What it does | Current scope |
-| --- | --- | --- |
-| [GANDOPS-WEB](https://github.com/Royalpuskar/GANDOPS-WEB) | Interactive service reliability risk dashboard | Fully local static simulation; no production telemetry connection |
-| [StudyNest](https://github.com/Royalpuskar/ai-student-assistant) | Study planner, notes extractor, study helper | Working offline browser tools + optional local Node API |
-| [SocialMind AI](https://github.com/Royalpuskar/Social-Mind-AI) | Scam-message indicators and URL research | Explainable local triage and separate Python tests; no claimed accuracy benchmark |
-| [PUSKAR-AI](https://github.com/Royalpuskar/PUSKAR-AI) | Draft email, reply, and chat interface | Frontend and Node backend; live AI needs a privately configured server key |
-| [POKYON Orbit Rush](https://github.com/Royalpuskar/POKYON) | Playable browser arcade game | Canvas controls, scoring, collisions, automated tests |
-| [POKYON Android Lab](https://github.com/Royalpuskar/POKYON-) | Experimental Android game screens and embedded web scenes | Android prototype; release builds and payments not verified |
-| [Sumitra Shoes Centre](https://github.com/Royalpuskar/SUMITRA-SHOES-CENTRE-) | Interactive static footwear lookbook + PHP/MySQL store demo | Static catalogue and unpaid local demo orders; **no real payment processing** |
-
-</details>
-
-## Reproducible checks
-
-[![SentinelMesh checks](https://github.com/Royalpuskar/SENTINEL-X/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/SENTINEL-X/actions/workflows/verify.yml)
-[![GANDOPS checks](https://github.com/Royalpuskar/GANDOPS-WEB/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/GANDOPS-WEB/actions/workflows/verify.yml)
-[![StudyNest checks](https://github.com/Royalpuskar/ai-student-assistant/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/ai-student-assistant/actions/workflows/verify.yml)
-[![SocialMind checks](https://github.com/Royalpuskar/Social-Mind-AI/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/Social-Mind-AI/actions/workflows/verify.yml)
-[![POKYON checks](https://github.com/Royalpuskar/POKYON/actions/workflows/verify.yml/badge.svg)](https://github.com/Royalpuskar/POKYON/actions/workflows/verify.yml)
-
-A passing check demonstrates that the **specified tests passed for that revision**, not that a project is secure or production ready.
-
-### Secret Boundary verification
-
-[Redaction Studio source](https://github.com/Royalpuskar/secret-boundary) includes separate policy controls, a field inspector, reviewed output, and audit exports. Ten engine tests passed locally, along with JavaScript syntax and static selector checks. The redesigned interface still needs live-browser, mobile, and 4K verification; its latest deployment is not yet confirmed.
-
-## How I build
-
-1. **Reproducibility:** Include code, instructions, synthetic data, and deterministic examples where possible.
-2. **Security-first boundaries:** Keep sensitive credentials out of web clients; document threat assumptions and prototype limitations.
-3. **Evidence over marketing:** Distinguish implemented behavior from ideas, roadmaps, and unverified performance claims.
-4. **Open learning:** Improve code quality, collaborate responsibly, and publish what is measured rather than what is merely envisioned.
-
-**Technologies used across repositories:** Python, JavaScript, HTML/CSS, Node.js, PHP/MySQL, Kotlin/Jetpack Compose, GitHub Actions, and browser security APIs. My proficiency continues to develop through these projects.
-
-## Research directions
-
-- Testing prompt-injection and tool-use defenses under realistic constraints.
-- Stronger reproducibility and evaluation datasets for defensive security tools.
-- Secure application authentication, credential handling, and privacy-by-design systems.
-- Deployment, accessibility, and integration testing for portfolio web applications.
-
-The [project roadmap](./PROJECT_ROADMAP.md) records proposals and implementation scope. New work must add a distinct technical question, meaningful behavior, and an interface designed for its task. Overlapping ideas belong in existing projects.
-
-## Collaboration
-
-I welcome reproducible bug reports, adversarial test cases, accessibility feedback, and thoughtful code review. Open an issue in the relevant repository with a minimal example, expected behavior, and observed result. Please use each project's security guidance for sensitive findings.
+I welcome reproducible bug reports, test cases and thoughtful reviews. Open an issue in the relevant repository with a minimal example, expected behavior and observed result. Follow the repository's security guidance for sensitive issues. I value meaningful contributions over artificial activity or inflated metrics.
 
 ---
 
-<p align="center">Build small. Test carefully. Document limitations. Improve with evidence.</p>
+Build small. Test carefully. Document limitations. Improve with evidence.
 
-
-<!-- portfolio-rights:start -->
-## Copyright
-
-© 2026 Puskar (Royalpuskar). All rights reserved for original project content, except where an applicable license grants permission. Third-party rights and notices remain with their owners.
-<!-- portfolio-rights:end -->
+© 2026 Puskar (Royalpuskar). Original content rights reserved except where an applicable license grants permission. Third-party notices remain with their owners.
