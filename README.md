@@ -56,7 +56,7 @@ My research interests include AI agent permissions, identity security, data priv
 
 ## Open-source collaboration
 
-I welcome reproducible bug reports, test cases and thoughtful reviews. Open an issue in the relevant repository with a minimal example, expected behavior and observed result. Follow the repository's security guidance for sensitive issues. I value meaningful contributions over artificial activity or inflated metrics.
+[Read the contribution guide](./CONTRIBUTING.md). I welcome reproducible bug reports, test cases and thoughtful reviews. Open an issue in the relevant repository with a minimal example, expected behavior and observed result. Follow the repository's security guidance for sensitive issues. I value meaningful contributions over artificial activity or inflated metrics.
 
 ---
 
