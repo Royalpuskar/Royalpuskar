@@ -6,11 +6,36 @@
 
 *Informatics student from Nepal, based in Indonesia. Building inspectable software for security, privacy, and reliable systems.*
 
-[Hackathon projects](#hackathon-engineering-projects) · [Selected work](#selected-work) · [Project catalogue](#project-catalogue) · [Engineering approach](#how-i-build) · [Research directions](#research-directions)
+[Flagship project](#flagship-project--social-mind-ai) · [Portfolio showcase](#portfolio-showcase) · [Hackathon projects](#hackathon-engineering-projects) · [Selected work](#selected-work) · [Project catalogue](#project-catalogue) · [Engineering approach](#how-i-build) · [Research directions](#research-directions)
 
 </div>
 
 ---
+
+## Flagship project — Social Mind AI
+
+[Social Mind AI — Digital Safety Research Lab](https://github.com/Royalpuskar/Social-Mind-AI) is my 2026 Microsoft hackathon project, as identified by me. It explores transparent, local scam-message triage and URL structure analysis. The current repository contains a browser prototype, Python analyzers and reproducible test instructions. No hackathon award or independently verified submission result is claimed.
+
+[Source and setup](https://github.com/Royalpuskar/Social-Mind-AI) · [Repository checks](https://github.com/Royalpuskar/Social-Mind-AI/actions)
+
+## Portfolio showcase
+
+Existing projects suitable for a public portfolio, each linked to its own repository and documented scope. This catalogue does not represent Devpost submissions or awards.
+
+| Project | Focus |
+| --- | --- |
+| [Social Mind AI](https://github.com/Royalpuskar/Social-Mind-AI) | Explainable scam-message indicators and URL analysis |
+| [PhishScope](https://github.com/Royalpuskar/PhishScope) | Inspect URL structure without visiting destinations |
+| [PrivacyLens](https://github.com/Royalpuskar/PrivacyLens) | Personal-data exposure awareness |
+| [Permission Gate](https://github.com/Royalpuskar/agent-permission-gate) | Default-deny automation policies |
+| [Token Lifecycle Lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh-token rotation and replay simulation |
+| [Consent Ledger](https://github.com/Royalpuskar/consent-ledger) | Time-limited sharing grants |
+| [Secret Boundary](https://github.com/Royalpuskar/secret-boundary) | Local JSON redaction and audit |
+| [Permission Diff](https://github.com/Royalpuskar/permission-diff) | Declared privilege changes and implications |
+| [Tenant Isolation Checker](https://github.com/Royalpuskar/tenant-isolation-checker) | Audit supplied cross-tenant access decisions |
+| [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | Dependency fingerprints and change impact |
+| [Test Gap Map](https://github.com/Royalpuskar/test-gap-map) | Coverage evidence for changed lines |
+| [API Contract Garden](https://github.com/Royalpuskar/api-contract-garden) | Simplified API compatibility analysis |
 
 ## Hackathon engineering projects
 
@@ -18,10 +43,10 @@ Four independent projects exploring secure releases, graph-based trust, incident
 
 | Event | Project | Development evidence |
 | --- | --- | --- |
-| **Qodo Software Factory Hackathon** | [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Registered; [CLI verification PR](https://github.com/Royalpuskar/release-evidence/pull/2), [Evidence Desk PR](https://github.com/Royalpuskar/release-evidence/pull/3), [existing live auditor](https://royalpuskar.github.io/release-evidence/) |
-| **Relate by Neo4j** | [Trust Path Explorer](https://github.com/Royalpuskar/trust-path-explorer) | Synthetic dependency graph and Cypher queries; Relate execution pending |
-| **GenHacks** | [Incident Handoff Lab](https://github.com/Royalpuskar/incident-handoff-lab) | Synthetic training prototype; [five engine tests passed](https://github.com/Royalpuskar/incident-handoff-lab/actions/runs/44865809584) |
-| **Cognizant Open Agentic Web Challenge** | [Consent Route Studio](https://github.com/Royalpuskar/consent-route-studio) | Design proposal; entrant contribution and specification integration pending |
+| **Qodo Software Factory Hackathon** | [Release Evidence](https://github.com/Royalpuskar/release-evidence) | Registered; [integrated draft PR #9](https://github.com/Royalpuskar/release-evidence/pull/9), [15/15 Node tests passed](https://github.com/Royalpuskar/release-evidence/actions/runs/45004487148/job/137152918746), [clean Qodo review at f6c99e2](https://github.com/Royalpuskar/release-evidence/pull/9#issuecomment-7076608139); integrated deployment pending |
+| **Relate by Neo4j** | [Trust Path Explorer](https://github.com/Royalpuskar/trust-path-explorer) | [Relate runtime and offline report PR](https://github.com/Royalpuskar/trust-path-explorer/pull/1); [two real database integration tests passed](https://github.com/Royalpuskar/trust-path-explorer/actions/runs/45005350966/job/137155631628), head ebabc35; visual validation pending |
+| **GenHacks** | [Incident Handoff Lab](https://github.com/Royalpuskar/incident-handoff-lab) | [Training prototype PR](https://github.com/Royalpuskar/incident-handoff-lab/pull/1); [eight tests passed](https://github.com/Royalpuskar/incident-handoff-lab/actions/runs/45004942432/job/137154311378), including all 1,024 synthetic answer combinations, head 3941a01 |
+| **Cognizant Open Agentic Web Challenge** | [Consent Route Studio](https://github.com/Royalpuskar/consent-route-studio) | [Specification acceptance plan](https://github.com/Royalpuskar/consent-route-studio/pull/1); entrant contribution and implementation pending |
 
 Qodo registration is confirmed by the entrant; registration for the other events and all official submissions remain unconfirmed. AI assistance is disclosed where required; test and review links point to actual repository evidence.
 
