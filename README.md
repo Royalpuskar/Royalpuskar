@@ -23,6 +23,7 @@ Hackathon participation is self-reported; no award or ranking is claimed. The cu
 | [Workflow Counterexample](https://github.com/Royalpuskar/workflow-counterexample) | Finite-state safety analysis and minimum repair planning. [Interactive workbench](https://royalpuskar.github.io/workflow-counterexample/repair.html) |
 | [Token Lifecycle Lab](https://github.com/Royalpuskar/token-lifecycle-lab) | Refresh-token rotation, reuse detection and family revocation. [Simulator](https://royalpuskar.github.io/token-lifecycle-lab/) |
 | [Dataset Lineage Map](https://github.com/Royalpuskar/dataset-lineage-map) | SHA-256 fingerprints and downstream change impact. [Demo](https://royalpuskar.github.io/dataset-lineage-map/) |
+| [Privacy Budget Board](https://github.com/Royalpuskar/privacy-budget-board) | Exact-decimal basic ε composition with a query-by-query spend ledger. [Live site](https://royalpuskar.github.io/privacy-budget-board/) |
 | [COGNISHIELD](https://github.com/Royalpuskar/COGNISHIELD) | Local prompt-risk indicators and agent action policies. [Demo](https://royalpuskar.github.io/COGNISHIELD/) |
 
 [See the complete project catalogue →](./PORTFOLIO.md)
